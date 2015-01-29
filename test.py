@@ -1,6 +1,6 @@
 
 
-def fibonnacci(n):
+def fibonacci(n):
 	a = 1
 	b = 1
 	for i in range(0,n):
@@ -10,7 +10,7 @@ def fibonnacci(n):
 	return a
 
 for i in range(0,10):
-	print fibonnacci(i)
+	print fibonacci(i)
 
 
 
